@@ -2,26 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45921a57-8d32-44d6-88f5-b204ec1c7409" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/core/templates/dashboard/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/snipe.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/snipe.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/views/category/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views/category/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vtc/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/vtc/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +141,7 @@
       <workItem from="1590090224970" duration="840000" />
       <workItem from="1624305626276" duration="44000" />
       <workItem from="1624308938273" duration="16057000" />
-      <workItem from="1624327978185" duration="19995000" />
+      <workItem from="1624327978185" duration="20882000" />
     </task>
     <task id="LOCAL-00001" summary="layout listo">
       <created>1624338917982</created>
@@ -193,22 +178,22 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="740" y="314" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1624255662012" />
-    <state width="1877" height="264" key="GridCell.Tab.0.bottom" timestamp="1624348876876">
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom" timestamp="1624349781420">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1624348876876" />
-    <state width="1877" height="264" key="GridCell.Tab.0.center" timestamp="1624348876876">
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1624349781420" />
+    <state width="1877" height="264" key="GridCell.Tab.0.center" timestamp="1624349781419">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1624348876876" />
-    <state width="1877" height="264" key="GridCell.Tab.0.left" timestamp="1624348876876">
+    <state width="1877" height="264" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1624349781419" />
+    <state width="1877" height="264" key="GridCell.Tab.0.left" timestamp="1624349781419">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1624348876876" />
-    <state width="1877" height="264" key="GridCell.Tab.0.right" timestamp="1624348876876">
+    <state width="1877" height="264" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1624349781419" />
+    <state width="1877" height="264" key="GridCell.Tab.0.right" timestamp="1624349781419">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1624348876876" />
+    <state width="1877" height="264" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1624349781419" />
     <state width="1877" height="293" key="GridCell.Tab.1.bottom" timestamp="1624269092805">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
