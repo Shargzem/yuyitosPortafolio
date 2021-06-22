@@ -1,11 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45921a57-8d32-44d6-88f5-b204ec1c7409" name="Default Changelist" comment="" />
+    <list default="true" id="45921a57-8d32-44d6-88f5-b204ec1c7409" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/core/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/migrations/0008_category_desc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/category/js/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/category/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/category/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.10.0/bootstrap-4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.10.0/bootstrap-4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.10.0/bootstrap-4.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.10.0/sweetalert2.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.10.0/sweetalert2.all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.10.0/sweetalert2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.10.0/sweetalert2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.10.0/sweetalert2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.10.0/sweetalert2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/hzt/body.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/hzt/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/vtc/body.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/vtc/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/vtc/sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../env/Lib/site-packages/django_widget_tweaks-1.4.8.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../env/Lib/site-packages/django_widget_tweaks-1.4.8.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../env/Lib/site-packages/django_widget_tweaks-1.4.8.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../env/Lib/site-packages/django_widget_tweaks-1.4.8.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../env/Lib/site-packages/django_widget_tweaks-1.4.8.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../env/Lib/site-packages/django_widget_tweaks-1.4.8.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../env/Lib/site-packages/widget_tweaks/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../env/Lib/site-packages/widget_tweaks/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../env/Lib/site-packages/widget_tweaks/templatetags/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../env/Lib/site-packages/widget_tweaks/templatetags/widget_tweaks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../env/Lib/site-packages/widget_tweaks/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/snipe.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/snipe.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/category/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/category/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/views/category/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views/category/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/body.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/second.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
@@ -13,6 +77,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Script" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -21,17 +87,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1uE9evsqAJFqSlPJrLf2P8wzNB8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/core" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -106,75 +176,80 @@
       <workItem from="1624246450952" duration="1262000" />
       <workItem from="1624247729154" duration="4462000" />
       <workItem from="1624252227635" duration="2668000" />
-      <workItem from="1624254926796" duration="13322000" />
+      <workItem from="1624254926796" duration="13776000" />
+      <workItem from="1624303439960" duration="977000" />
+      <workItem from="1590090224970" duration="840000" />
+      <workItem from="1624305626276" duration="44000" />
+      <workItem from="1624308938273" duration="16057000" />
+      <workItem from="1624327978185" duration="10602000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="414" y="215" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1624253118262">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="414" y="215" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1624253118262" />
-    <state x="690" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1624257098025">
+    <state x="690" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1624338250550">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="690" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1624257098025" />
+    <state x="690" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1624338250550" />
+    <state x="585" y="154" key="CommitChangelistDialog2" timestamp="1624338893650">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="585" y="154" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1624338893650" />
     <state x="740" y="314" key="FileChooserDialogImpl" timestamp="1624255662012">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="740" y="314" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1624255662012" />
-    <state width="1877" height="266" key="GridCell.Tab.0.bottom" timestamp="1624267870015">
+    <state width="930" height="250" key="GridCell.Tab.0.bottom" timestamp="1624337870122">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1877" height="266" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1624267870015" />
-    <state width="1877" height="266" key="GridCell.Tab.0.center" timestamp="1624267870015">
+    <state width="930" height="250" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1624337870122" />
+    <state width="930" height="250" key="GridCell.Tab.0.center" timestamp="1624337870122">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1877" height="266" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1624267870015" />
-    <state width="1877" height="266" key="GridCell.Tab.0.left" timestamp="1624267870015">
+    <state width="930" height="250" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1624337870122" />
+    <state width="930" height="250" key="GridCell.Tab.0.left" timestamp="1624337870121">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1877" height="266" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1624267870015" />
-    <state width="1877" height="266" key="GridCell.Tab.0.right" timestamp="1624267870015">
+    <state width="930" height="250" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1624337870121" />
+    <state width="930" height="250" key="GridCell.Tab.0.right" timestamp="1624337870122">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1877" height="266" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1624267870015" />
-    <state width="1877" height="293" key="GridCell.Tab.1.bottom" timestamp="1624264654821">
+    <state width="930" height="250" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1624337870122" />
+    <state width="1877" height="293" key="GridCell.Tab.1.bottom" timestamp="1624269092805">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1877" height="293" key="GridCell.Tab.1.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1624264654821" />
-    <state width="1877" height="293" key="GridCell.Tab.1.center" timestamp="1624264654821">
+    <state width="1877" height="293" key="GridCell.Tab.1.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1624269092805" />
+    <state width="1877" height="293" key="GridCell.Tab.1.center" timestamp="1624269092805">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1877" height="293" key="GridCell.Tab.1.center/0.40.1920.1040@0.40.1920.1040" timestamp="1624264654821" />
-    <state width="1877" height="293" key="GridCell.Tab.1.left" timestamp="1624264654821">
+    <state width="1877" height="293" key="GridCell.Tab.1.center/0.40.1920.1040@0.40.1920.1040" timestamp="1624269092805" />
+    <state width="1877" height="293" key="GridCell.Tab.1.left" timestamp="1624269092805">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1877" height="293" key="GridCell.Tab.1.left/0.40.1920.1040@0.40.1920.1040" timestamp="1624264654821" />
-    <state width="1877" height="293" key="GridCell.Tab.1.right" timestamp="1624264654821">
+    <state width="1877" height="293" key="GridCell.Tab.1.left/0.40.1920.1040@0.40.1920.1040" timestamp="1624269092805" />
+    <state width="1877" height="293" key="GridCell.Tab.1.right" timestamp="1624269092805">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1877" height="293" key="GridCell.Tab.1.right/0.40.1920.1040@0.40.1920.1040" timestamp="1624264654821" />
-    <state x="390" y="185" key="SettingsEditor" timestamp="1624256943005">
+    <state width="1877" height="293" key="GridCell.Tab.1.right/0.40.1920.1040@0.40.1920.1040" timestamp="1624269092805" />
+    <state x="390" y="185" key="SettingsEditor" timestamp="1624316077849">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="390" y="185" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1624256943005" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="django-line">
-          <url>file://$PROJECT_DIR$/core/templates/category/list.html</url>
-          <line>30</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="390" y="185" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1624316077849" />
+    <state x="648" y="249" width="672" height="678" key="search.everywhere.popup" timestamp="1624322290462">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="648" y="249" width="672" height="678" key="search.everywhere.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1624322290462" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/app$tests.coverage" NAME="tests Coverage Results" MODIFIED="1624263025310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core" />
+    <SUITE FILE_PATH="coverage/app$tests.coverage" NAME="tests Coverage Results" MODIFIED="1624333243789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core" />
   </component>
 </project>

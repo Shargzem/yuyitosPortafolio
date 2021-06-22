@@ -1,4 +1,4 @@
-{% extends 'body.html' %}
+{% extends 'layout.html' %}
 {% load static %}
 {% block head %}
     <link rel="stylesheet" href="{% static 'lib/datatables-1.10.20/css/dataTables.bootstrap4.min.css' %}"/>
@@ -7,6 +7,10 @@
     <script src="{% static 'lib/datatables-1.10.20/js/dataTables.bootstrap4.min.js' %}"></script>
     <script src="{% static 'lib/datatables-1.10.20/plugins/responsive-2.2.3/js/dataTables.responsive.min.js' %}"></script>
     <script src="{% static 'lib/datatables-1.10.20/plugins/responsive-2.2.3/js/responsive.bootstrap4.min.js' %}"></script>
+    
+    {% block head_list %}
+    
+    {% endblock %}
 {% endblock %}
 
 
@@ -33,9 +37,9 @@
             </table>
         </div>
         <div class="card-footer">
-            <button class="btn btn-primary btn-flat btnTest">
+            <a href="{{ create_url }}" class="btn btn-primary btn-flat btnTest">
                 <i class="fas fa-plus"></i> Nuevo registro
-            </button>
+            </a>
         </div>
     </div>
 {% endblock %}
@@ -50,7 +54,7 @@
 
             $('.btnTest').on('click', function () {
                 $.ajax({
-                    url : '{% url 'erp:category_list' %}',
+                    url : window.location.pathname,
                     type: 'POST',
                     data: {id: 1},
                     DataType: 'json'
@@ -61,7 +65,7 @@
                 }).always(function (data) {
 
 
-                })
+                });
             });
         });
     </script>

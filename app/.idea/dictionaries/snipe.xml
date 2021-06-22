@@ -6,6 +6,7 @@
       <w>apellidos</w>
       <w>categoria</w>
       <w>categorias</w>
+      <w>categorías</w>
       <w>cliente</w>
       <w>clientes</w>
       <w>datatables</w>
@@ -18,10 +19,13 @@
       <w>nacimiento</w>
       <w>nombre</w>
       <w>nombres</w>
+      <w>ocurrido</w>
+      <w>parametros</w>
       <w>producto</w>
       <w>productos</w>
       <w>registro</w>
       <w>respuesta</w>
+      <w>searchdata</w>
       <w>sexo</w>
       <w>tipo</w>
       <w>tipos</w>
