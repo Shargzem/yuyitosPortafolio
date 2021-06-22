@@ -1,0 +1,115 @@
+{% load static %}
+{% load widget_tweaks %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ title }}</title>
+
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="{% static 'lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/css/all.min.css' %}">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="{% static 'lib/adminlte-3.0.4/css/adminlte.min.css' %}">
+    <!-- SweetAlert2  -->
+    <script src="{% static 'lib/sweetalert2-9.10.0/sweetalert2.all.min.js' %}"></script>
+</head>
+<body class="hold-transition login-page">
+<div class="login-box">
+    <div class="login-logo">
+        <a href="{% url 'login' %}"><b>Yuyitos</b> Login</a>
+    </div>
+    <!-- /.login-logo -->
+    <div class="card">
+        <div class="card-body login-card-body">
+            <p class="login-box-msg">Ingrese sus datos para iniciar sesión</p>
+
+            <form action="." method="post">
+                {% csrf_token %}
+                <div class="input-group mb-3">
+                    {{ form.username|add_class:'form-control'|attr:'autocomplete:off'|attr:'placeholder:Ingrese su nombre de usuario' }}
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-id-card"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-group mb-3">
+                    {{ form.password|add_class:'form-control'|attr:'autocomplete:off'|attr:'placeholder:Ingrese su contraseña' }}
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-lock"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-8">
+                        <div class="icheck-primary">
+                            <input type="checkbox" id="remember">
+                            <label for="remember">
+                                Recordar
+                            </label>
+                        </div>
+                    </div>
+                    <!-- /.col -->
+
+                    <!-- /.col -->
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <i class="fas fa-sign-in-alt" ></i>Iniciar sesión
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+            {#      <div class="social-auth-links text-center mb-3">#}
+            {#        <p>- O -</p>#}
+            {#        <a href="#" class="btn btn-block btn-primary">#}
+            {#          <i class="fab fa-facebook mr-2"></i> Regístrate usando Facebook#}
+            {#        </a>#}
+            {#        <a href="#" class="btn btn-block btn-danger">#}
+            {#          <i class="fab fa-google-plus mr-2"></i> Regístrate usando Google+#}
+            {#        </a>#}
+            {#      </div>#}
+            <!-- /.social-auth-links -->
+
+
+            {#      <p class="mb-0">#}
+            {#        <a href="register.html" class="text-center">Register a new membership</a>#}
+            {#      </p>#}
+        </div>
+        <!-- /.login-card-body -->
+    </div>
+    <script type="application/javascript">
+        {% if form.errors %}
+            var errors = '';
+            {% for field in form  %}
+                {% for error in field.errors %}
+                    errors+='{{ error }}\n';
+                {% endfor %}
+            {% endfor %}
+            Swal.fire({
+                title: 'Error!',
+                text: errors,
+                icon: 'error'
+
+            });
+        {% endif %}
+
+    </script>
+</div>
+<!-- /.login-box -->
+
+<!-- jQuery -->
+<script src="{% static 'lib/adminlte-3.0.4/plugins/jquery/jquery.min.js' %}"></script>
+<!-- Bootstrap 4 -->
+<script src="{% static 'lib/adminlte-3.0.4/plugins/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+<!-- AdminLTE App -->
+<script src="{% static 'lib/adminlte-3.0.4/js/adminlte.min.js' %}"></script>
+</body>
+</html>

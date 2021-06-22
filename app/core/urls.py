@@ -1,4 +1,6 @@
 from django.urls import path
+
+from core.templates.dashboard.views import DashboardView
 from core.views.category.views import *
 
 
@@ -11,4 +13,8 @@ urlpatterns = [
     path('category/add/', CategoryCreateView.as_view(), name='category_create'),
     path('category/update/<int:pk>/', CategoryUpdateView.as_view(), name='category_update'),
     path('category/delete/<int:pk>/', CategoryDeleteView.as_view(), name='category_delete'),
+    #home
+    path('dashboard/', DashboardView.as_view(), name='dashboard'),
+
+
 ]

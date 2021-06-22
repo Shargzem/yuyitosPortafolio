@@ -2,55 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45921a57-8d32-44d6-88f5-b204ec1c7409" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/core/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/migrations/0008_category_desc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/static/category/js/list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/templates/category/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/templates/category/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/functions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.10.0/bootstrap-4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.10.0/bootstrap-4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.10.0/bootstrap-4.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.10.0/sweetalert2.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.10.0/sweetalert2.all.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.10.0/sweetalert2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.10.0/sweetalert2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.10.0/sweetalert2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.10.0/sweetalert2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/hzt/body.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/hzt/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vtc/body.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vtc/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vtc/sidebar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../env/Lib/site-packages/django_widget_tweaks-1.4.8.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../env/Lib/site-packages/django_widget_tweaks-1.4.8.dist-info/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../env/Lib/site-packages/django_widget_tweaks-1.4.8.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../env/Lib/site-packages/django_widget_tweaks-1.4.8.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../env/Lib/site-packages/django_widget_tweaks-1.4.8.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../env/Lib/site-packages/django_widget_tweaks-1.4.8.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../env/Lib/site-packages/widget_tweaks/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../env/Lib/site-packages/widget_tweaks/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../env/Lib/site-packages/widget_tweaks/templatetags/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../env/Lib/site-packages/widget_tweaks/templatetags/widget_tweaks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../env/Lib/site-packages/widget_tweaks/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/dashboard/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/snipe.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/snipe.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/templates/category/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/category/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/views/category/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views/category/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/body.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/second.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/vtc/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/vtc/header.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,9 +48,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -104,6 +75,10 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="J:\Duoc\Portafolio de Titulo\app\" />
+      <recent name="J:\Duoc\Portafolio de Titulo\app\core" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="J:\Duoc\Portafolio de Titulo\app\core" />
       <recent name="J:\Duoc\Portafolio de Titulo\app\templates" />
@@ -181,8 +156,16 @@
       <workItem from="1590090224970" duration="840000" />
       <workItem from="1624305626276" duration="44000" />
       <workItem from="1624308938273" duration="16057000" />
-      <workItem from="1624327978185" duration="10602000" />
+      <workItem from="1624327978185" duration="19995000" />
     </task>
+    <task id="LOCAL-00001" summary="layout listo">
+      <created>1624338917982</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1624338917982</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +173,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="layout listo" />
+    <option name="LAST_COMMIT_MESSAGE" value="layout listo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="215" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1624253118262">
@@ -200,30 +185,30 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="690" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1624338250550" />
-    <state x="585" y="154" key="CommitChangelistDialog2" timestamp="1624338893650">
+    <state x="585" y="154" key="CommitChangelistDialog2" timestamp="1624338915238">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="585" y="154" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1624338893650" />
+    <state x="585" y="154" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1624338915238" />
     <state x="740" y="314" key="FileChooserDialogImpl" timestamp="1624255662012">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="740" y="314" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1624255662012" />
-    <state width="930" height="250" key="GridCell.Tab.0.bottom" timestamp="1624337870122">
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom" timestamp="1624348876876">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="930" height="250" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1624337870122" />
-    <state width="930" height="250" key="GridCell.Tab.0.center" timestamp="1624337870122">
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1624348876876" />
+    <state width="1877" height="264" key="GridCell.Tab.0.center" timestamp="1624348876876">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="930" height="250" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1624337870122" />
-    <state width="930" height="250" key="GridCell.Tab.0.left" timestamp="1624337870121">
+    <state width="1877" height="264" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1624348876876" />
+    <state width="1877" height="264" key="GridCell.Tab.0.left" timestamp="1624348876876">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="930" height="250" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1624337870121" />
-    <state width="930" height="250" key="GridCell.Tab.0.right" timestamp="1624337870122">
+    <state width="1877" height="264" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1624348876876" />
+    <state width="1877" height="264" key="GridCell.Tab.0.right" timestamp="1624348876876">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="930" height="250" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1624337870122" />
+    <state width="1877" height="264" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1624348876876" />
     <state width="1877" height="293" key="GridCell.Tab.1.bottom" timestamp="1624269092805">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
