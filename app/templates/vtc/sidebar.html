@@ -1,5 +1,5 @@
 {% load static %}
-<aside class="main-sidebar sidebar-light-primary elevation-4">
+<aside class="main-sidebar sidebar-light-dark elevation-4">
     <a href="#" class="brand-link">
         <img src="{% static 'img/logo.png' %}"
              alt="AdminLTE Logo"
@@ -7,7 +7,7 @@
              style="opacity: .8">
         <span class="brand-text font-weight-light">Yuyitos</span>
     </a>
-    <div class="sidebar">
+    <div class="sidebar ">
         <div class="user-panel mt-3 pb-3 mb-3 d-flex">
             <div class="image">
                 <img src="{% static 'img/user.png' %}" class="img-circle elevation-2" alt="User Image">
@@ -28,7 +28,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="{% url 'erp:product_list' %}" class="nav-link">
                         <i class="nav-icon fas fa-boxes"></i>
                         <p>
                             Productos

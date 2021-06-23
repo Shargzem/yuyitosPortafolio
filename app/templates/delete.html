@@ -27,7 +27,7 @@
                 {% endif %}
                 <div class="alert alert-danger alert-dismissible">
                     <h5><i class="icon fas fa-ban"></i> Notificación!</h5>
-                    ¿Estas seguro de eliminar el registro nro {{ object.id }}?
+                    ¿Estas seguro de eliminar el registro de {{ object.name }}?
                 </div>
             </div>
             <div class="card-footer">
@@ -44,22 +44,8 @@
         $('form').on('submit', function (e) {
             e.preventDefault();
             var parametros = $(this).serializeArray();
-            $.ajax({
-                url: window.location.pathname,
-                type: 'POST',
-                data: parametros,
-                dataType: 'json'
-            }).done(function (data) {
-                console.log(data);
-                if (!data.hasOwnProperty('error')) {
-                    location.href = '{{ list_url }}';
-                    return false;
-                }
-                message_error(data.error);
-            }).fail(function (jqXHR, textStatus, errorThrown) {
-                alert(textStatus + ': ' + errorThrown);
-            }).always(function (data) {
-
+            submit_with_ajax(window.location.pathname, 'Notificación', '¿Estás seguro de eliminar el siguiente registro ?', parametros, function () {
+                location.href = '{{ list_url }}';
             });
         });
     </script>

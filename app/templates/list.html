@@ -15,7 +15,7 @@
 
 
 {% block content %}
-    <div class="card card-default">
+    <div class="card card-gray-dark">
         <div class="card-header">
             <h3 class="card-title">
                 <i class="fas fa-search"></i>
@@ -40,6 +40,9 @@
             <a href="{{ create_url }}" class="btn btn-primary btn-flat btnTest">
                 <i class="fas fa-plus"></i> Nuevo registro
             </a>
+            <a href="{{ list_url }}" class="btn btn-success btn-flat">
+                <i class="fas fa-sync"></i> Actualizar
+            </a>
         </div>
     </div>
 {% endblock %}
@@ -52,21 +55,6 @@
                 autoWidth: false
             });
 
-            $('.btnTest').on('click', function () {
-                $.ajax({
-                    url : window.location.pathname,
-                    type: 'POST',
-                    data: {id: 1},
-                    DataType: 'json'
-                }).done(function (data) {
-                   console.log(data);
-                }).fail(function (data) {
-                    alert("Error");
-                }).always(function (data) {
-
-
-                });
-            });
         });
     </script>
 {% endblock %}
