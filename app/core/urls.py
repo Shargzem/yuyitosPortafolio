@@ -2,6 +2,7 @@ from django.urls import path
 
 from core.templates.dashboard.views import DashboardView
 from core.views.category.views import *
+from core.views.client.views import ClientView
 from core.views.product.views import *
 from core.views.tests.views import TestView
 
@@ -22,6 +23,9 @@ urlpatterns = [
     path('product/add/', ProductCreateView.as_view(), name='product_create'),
     path('product/update/<int:pk>/', ProductUpdateView.as_view(), name='product_update'),
     path('product/delete/<int:pk>/', ProductDeleteView.as_view(), name='product_delete'),
+
+    # client
+    path('client/', ClientView.as_view(), name='client'),
 
     # test
     path('test/', TestView.as_view(), name='test'),

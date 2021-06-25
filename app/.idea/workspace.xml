@@ -2,78 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45921a57-8d32-44d6-88f5-b204ec1c7409" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/core/views/tests/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/css/select2-bootstrap4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/css/select2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/css/select2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/af.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/az.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/bn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/bs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/build.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/dsb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/hi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/hsb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/hy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/is.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/ka.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/km.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/mk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/ms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/ne.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/ps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/pt-BR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/sq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/sr-Cyrl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/tk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/zh-TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/select2.full.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/select2.full.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/select2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/select2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/tests.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/migrations/0014_auto_20210625_1518.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/client/js/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/client/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/views/client/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/vtc/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/vtc/sidebar.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,9 +42,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -136,14 +75,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="J:\Duoc\Portafolio de Titulo\app\" />
-      <recent name="J:\Duoc\Portafolio de Titulo\app\core" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="J:\Duoc\Portafolio de Titulo\app\static\lib" />
       <recent name="J:\Duoc\Portafolio de Titulo\app\core" />
       <recent name="J:\Duoc\Portafolio de Titulo\app\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="J:\Duoc\Portafolio de Titulo\app\core\static\client\js" />
+      <recent name="J:\Duoc\Portafolio de Titulo\app\" />
+      <recent name="J:\Duoc\Portafolio de Titulo\app\core" />
     </key>
   </component>
   <component name="RunManager" selected="Django server.server">
@@ -221,7 +161,9 @@
       <workItem from="1624327978185" duration="21070000" />
       <workItem from="1624415204594" duration="257000" />
       <workItem from="1624474121617" duration="12865000" />
-      <workItem from="1624572806433" duration="9837000" />
+      <workItem from="1624572806433" duration="10928000" />
+      <workItem from="1624637714007" duration="100000" />
+      <workItem from="1624648383124" duration="4925000" />
     </task>
     <task id="LOCAL-00001" summary="layout listo">
       <created>1624338917982</created>
@@ -258,22 +200,26 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="740" y="314" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1624255662012" />
-    <state width="709" height="234" key="GridCell.Tab.0.bottom" timestamp="1624583545461">
+    <state width="1877" height="247" key="GridCell.Tab.0.bottom" timestamp="1624653375170">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="709" height="234" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1624583545461" />
-    <state width="709" height="234" key="GridCell.Tab.0.center" timestamp="1624583545461">
+    <state width="1877" height="247" key="GridCell.Tab.0.bottom/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1624653375170" />
+    <state width="1877" height="248" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1624586628710" />
+    <state width="1877" height="247" key="GridCell.Tab.0.center" timestamp="1624653375170">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="709" height="234" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1624583545461" />
-    <state width="709" height="234" key="GridCell.Tab.0.left" timestamp="1624583545461">
+    <state width="1877" height="247" key="GridCell.Tab.0.center/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1624653375170" />
+    <state width="1877" height="248" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1624586628710" />
+    <state width="1877" height="247" key="GridCell.Tab.0.left" timestamp="1624653375170">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="709" height="234" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1624583545461" />
-    <state width="709" height="234" key="GridCell.Tab.0.right" timestamp="1624583545461">
+    <state width="1877" height="247" key="GridCell.Tab.0.left/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1624653375170" />
+    <state width="1877" height="248" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1624586628710" />
+    <state width="1877" height="247" key="GridCell.Tab.0.right" timestamp="1624653375170">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="709" height="234" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1624583545461" />
+    <state width="1877" height="247" key="GridCell.Tab.0.right/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1624653375170" />
+    <state width="1877" height="248" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1624586628710" />
     <state width="1877" height="293" key="GridCell.Tab.1.bottom" timestamp="1624269092805">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>

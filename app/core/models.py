@@ -43,13 +43,17 @@ class Product(models.Model):
 class Client(models.Model):
     names = models.CharField(max_length=150, verbose_name='Nombres')
     surnames = models.CharField(max_length=150, verbose_name='Apellidos')
-    dni = models.CharField(max_length=10, unique=True, verbose_name='Dni')
-    birthday = models.DateField(default=datetime.now, verbose_name='Fecha de nacimiento')
+    rut = models.CharField(max_length=10, unique=True, verbose_name='Rut')
     address = models.CharField(max_length=150, null=True, blank=True, verbose_name='Dirección')
-    sexo = models.CharField(max_length=10, choices=gender_choices, default='male', verbose_name='Sexo')
+    gender = models.CharField(max_length=10, choices=gender_choices, default='male', verbose_name='Genero')
 
     def __str__(self):
         return self.names
+
+    def toJSON(self):
+        item = model_to_dict(self)
+        item['gender'] = self.get_gender_display()
+        return item
 
     class Meta:
         verbose_name = 'Cliente'
