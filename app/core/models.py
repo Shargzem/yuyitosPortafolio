@@ -52,7 +52,7 @@ class Client(models.Model):
 
     def toJSON(self):
         item = model_to_dict(self)
-        item['gender'] = self.get_gender_display()
+        item['gender'] = {'id': self.gender, 'name': self.get_gender_display()}
         return item
 
     class Meta:
