@@ -86,6 +86,21 @@ class TestForm(Form):
     }))
 
 
+    #con ajax
+
+    # search = CharField(widget=TextInput(attrs={
+    #     'class': 'form-control',
+    #     'autocomplete': 'off',
+    #     'placeholder': 'Ingrese una descripción'
+    # }))
+
+    # con selec2
+    search = ModelChoiceField(queryset=Product.objects.none(), widget=Select(attrs={
+        'class': 'form-control select2',
+        'autocomplete': 'off',
+        'style': 'width: 100%'
+    }))
+
 class ClientForm(ModelForm):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
