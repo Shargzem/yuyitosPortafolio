@@ -33,6 +33,11 @@ class Product(models.Model):
     def __str__(self):
         return self.name
 
+    def toJSON(self):
+        item = model_to_dict(self)
+        item['cate'] = self.cate.toJSON()
+        return item
+
     class Meta:
         verbose_name = 'Producto'
         verbose_name_plural = 'Productos'

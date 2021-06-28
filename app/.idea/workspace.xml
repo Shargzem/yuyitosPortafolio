@@ -2,95 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45921a57-8d32-44d6-88f5-b204ec1c7409" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/core/static/sale/js/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/templates/sale/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/views/sale/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/bootstrap-touchspin-4.3.0/jquery.bootstrap-touchspin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/bootstrap-touchspin-4.3.0/jquery.bootstrap-touchspin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/moment-2.25.3/moment-with-locales.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/moment-2.25.3/moment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/tempusdominus-bootstrap-4/tempusdominus-bootstrap-4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/tempusdominus-bootstrap-4/tempusdominus-bootstrap-4.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/migrations/0009_alter_product_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/migrations/0009_alter_product_table.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/migrations/0010_alter_product_pvp.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/migrations/0010_alter_product_pvp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/migrations/0011_auto_20210623_1729.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/migrations/0011_auto_20210623_1729.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/migrations/0012_auto_20210623_1800.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/migrations/0012_auto_20210623_1800.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/migrations/0013_alter_product_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/migrations/0013_alter_product_table.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/migrations/0014_auto_20210625_1518.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/migrations/0014_auto_20210625_1518.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/static/client/js/list.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/client/js/list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/templates/client/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/client/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/templates/product/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/product/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/views/client/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views/client/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/sale/js/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/sale/js/form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/sale/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/sale/create.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/views/product/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views/product/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/views/tests/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views/tests/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/views/sale/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views/sale/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/jquery-confirm-v3.3.4/jquery-confirm.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/jquery-confirm-v3.3.4/jquery-confirm.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/jquery-confirm-v3.3.4/jquery-confirm.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/jquery-confirm-v3.3.4/jquery-confirm.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/css/select2.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/css/select2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/css/select2.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/css/select2.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/af.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/af.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/ar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/az.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/az.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/bg.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/bg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/bn.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/bn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/bs.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/bs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/build.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/build.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/ca.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/ca.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/cs.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/cs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/da.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/da.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/de.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/de.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/dsb.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/dsb.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/el.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/el.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/en.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/es.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/es.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/et.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/et.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/eu.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/eu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/fa.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/fa.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/fi.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/fi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/fr.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/fr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/gl.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/gl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/he.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/he.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/hi.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/hi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/hr.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/hr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/hsb.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/hsb.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/hu.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/hu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/hy.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/hy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/id.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/id.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/is.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/is.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/it.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/it.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/ja.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/ja.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/ka.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/ka.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/km.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/km.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/ko.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/ko.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/lt.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/lt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/lv.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/lv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/mk.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/mk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/ms.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/ms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/nb.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/nb.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/ne.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/ne.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/nl.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/nl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/pl.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/pl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/ps.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/ps.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/pt-BR.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/pt-BR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/pt.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/pt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/ro.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/ro.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/ru.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/ru.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/sk.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/sk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/sl.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/sl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/sq.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/sq.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/sr-Cyrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/sr-Cyrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/sr.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/sr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/sv.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/sv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/th.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/th.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/tk.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/tk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/tr.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/tr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/uk.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/uk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/vi.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/vi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/zh-CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/zh-CN.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/zh-TW.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/zh-TW.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/select2.full.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/select2.full.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/select2.full.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/select2.full.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/select2.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/select2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/select2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/select2.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vtc/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/vtc/sidebar.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -247,6 +171,7 @@
       <workItem from="1624673345503" duration="4648000" />
       <workItem from="1624750025739" duration="4562000" />
       <workItem from="1624845360562" duration="1200000" />
+      <workItem from="1624899301194" duration="4802000" />
     </task>
     <task id="LOCAL-00001" summary="layout listo">
       <created>1624338917982</created>
@@ -283,25 +208,25 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="740" y="314" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1624255662012" />
-    <state width="1724" height="231" key="GridCell.Tab.0.bottom" timestamp="1624846245338">
+    <state width="1228" height="231" key="GridCell.Tab.0.bottom" timestamp="1624904214773">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1724" height="231" key="GridCell.Tab.0.bottom/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1624846245338" />
+    <state width="1228" height="231" key="GridCell.Tab.0.bottom/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1624904214773" />
     <state width="1877" height="248" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1624586628710" />
-    <state width="1724" height="231" key="GridCell.Tab.0.center" timestamp="1624846245338">
+    <state width="1228" height="231" key="GridCell.Tab.0.center" timestamp="1624904214772">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1724" height="231" key="GridCell.Tab.0.center/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1624846245338" />
+    <state width="1228" height="231" key="GridCell.Tab.0.center/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1624904214772" />
     <state width="1877" height="248" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1624586628710" />
-    <state width="1724" height="231" key="GridCell.Tab.0.left" timestamp="1624846245337">
+    <state width="1228" height="231" key="GridCell.Tab.0.left" timestamp="1624904214772">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1724" height="231" key="GridCell.Tab.0.left/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1624846245337" />
+    <state width="1228" height="231" key="GridCell.Tab.0.left/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1624904214772" />
     <state width="1877" height="248" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1624586628710" />
-    <state width="1724" height="231" key="GridCell.Tab.0.right" timestamp="1624846245338">
+    <state width="1228" height="231" key="GridCell.Tab.0.right" timestamp="1624904214773">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1724" height="231" key="GridCell.Tab.0.right/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1624846245338" />
+    <state width="1228" height="231" key="GridCell.Tab.0.right/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1624904214773" />
     <state width="1877" height="248" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1624586628710" />
     <state width="1877" height="293" key="GridCell.Tab.1.bottom" timestamp="1624269092805">
       <screen x="0" y="40" width="1920" height="1040" />
