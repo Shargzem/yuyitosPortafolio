@@ -1,6 +1,8 @@
+from datetime import datetime
 from django.forms import *
 
-from core.models import Category, Product, Client
+
+from core.models import Category, Product, Client, Sale
 
 
 class CategoryForm(ModelForm):
@@ -152,3 +154,40 @@ class ClientForm(ModelForm):
     #         raise forms.ValidationError('Validacion xxx')
     #         # self.add_error('name', 'Le faltan caracteres')
     #     return cleaned
+
+
+class SaleForm(ModelForm):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+
+    class Meta:
+        model = Sale
+        fields = '__all__'
+        widgets = {
+            'cli': Select(attrs={
+                'class': 'form-control select2',
+                'style': 'width: 100%'
+            }),
+            'date_joined': DateInput(
+                format='%Y-%m-%d',
+                attrs={
+                    'value': datetime.now().strftime('%Y-%m-%d'),
+                    'autocomplete': 'off',
+                    'class': 'form-control datetimepicker-input',
+                    'id': 'date_joined',
+                    'data-target': '#date_joined',
+                    'data-toggle': 'datetimepicker'
+                }
+            ),
+            'iva': TextInput(attrs={
+                'class': 'form-control',
+            }),
+            'subtotal': TextInput(attrs={
+                'readonly': True,
+                'class': 'form-control',
+            }),
+            'total': TextInput(attrs={
+                'readonly': True,
+                'class': 'form-control',
+            })
+        }
