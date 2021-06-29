@@ -180,6 +180,8 @@ class SaleForm(ModelForm):
                 }
             ),
             'iva': TextInput(attrs={
+                #'disabled': True ,
+                #'readonly': True,
                 'class': 'form-control',
             }),
             'subtotal': TextInput(attrs={

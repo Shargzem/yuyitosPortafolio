@@ -26,7 +26,7 @@ class SaleCreateView(CreateView):
         try:
             action = request.POST['action']
             if action == 'search_products':
-                prods = Product.objects.filter(name__icontains=request.POST['term'])
+                prods = Product.objects.filter(name__icontains=request.POST['term'])[0:10]
                 data = []
                 for i in prods:
                     item = i.toJSON()
