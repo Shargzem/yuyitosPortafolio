@@ -18,12 +18,12 @@ function mensaje_error(obj) {
 }
 
 
-function submit_with_ajax(url, title, content, parametros, callback) {
+function submit_with_ajax(url, title, content, parameters, callback) {
     $.confirm({
-        theme: 'modern',
-        title: 'Confirmación',
+        theme: 'material',
+        title: title,
         icon: 'fa fa-info',
-        content: '¿Estás seguro de realizar la siguiente acción?',
+        content: content,
         columnClass: 'small',
         typeAnimated: true,
         cancelButtonClass: 'btn-primary',
@@ -35,21 +35,70 @@ function submit_with_ajax(url, title, content, parametros, callback) {
                 btnClass: 'btn-primary',
                 action: function () {
                     $.ajax({
-                        url : url, //window.location.pathname
+                        url: url, //window.location.pathname
                         type: 'POST',
-                        data: parametros,
+                        data: parameters,
                         dataType: 'json'
                     }).done(function (data) {
-                        console.log(data);
-                        if(!data.hasOwnProperty('error')){
+                        if (!data.hasOwnProperty('error')) {
                             callback();
                             return false;
                         }
                         mensaje_error(data.error);
+                        console.log(data);
                     }).fail(function (jqXHR, textStatus, errorThrown) {
                         alert(textStatus + ': ' + errorThrown);
                     }).always(function (data) {
 
+                    });
+                }
+            },
+            danger: {
+                text: "No",
+                btnClass: 'btn-red',
+                action: function () {
+
+                }
+            },
+        }
+    })
+}
+
+function submit_with_ajax2(url, title, content, parameters, callback) {
+    //console.log(content);
+    $.confirm({
+        theme: 'material',
+        title: title,
+        icon: 'fa fa-info',
+        content: content,
+        columnClass: 'small',
+        typeAnimated: true,
+        cancelButtonClass: 'btn-primary',
+        draggable: true,
+        dragWindowBorder: false,
+        buttons: {
+            info: {
+                text: "Si",
+                btnClass: 'btn-primary',
+                action: function () {
+                    $.ajax({
+                        url: url, //window.location.pathname
+                        type: 'POST',
+                        data: parameters,
+                        dataType: 'json',
+                        processData: false,
+                        contentType: false,
+                    }).done(function (data) {
+                        console.log(data);
+                        if (!data.hasOwnProperty('error')) {
+                            callback();
+                            return false;
+                        }
+                        mensaje_error(data.error);
+                        console.log(data);
+                    }).fail(function (jqXHR, textStatus, errorThrown) {
+                        alert(textStatus + ': ' + errorThrown);
+                    }).always(function (data) {
 
                     });
                 }

@@ -1,13 +1,13 @@
+import json
+
 from django.http import JsonResponse
 from django.urls import reverse_lazy
 from django.utils.decorators import method_decorator
 from django.views.decorators.csrf import csrf_exempt
-
-from core.forms import SaleForm
-
 from django.views.generic import CreateView
 
-from core.models import Sale, Product
+from core.forms import SaleForm
+from core.models import Sale, Product, DetSale
 
 
 class SaleCreateView(CreateView):
@@ -32,6 +32,27 @@ class SaleCreateView(CreateView):
                     item = i.toJSON()
                     item['value'] = i.name
                     data.append(item)
+            elif action == 'add':
+
+                vents =  json.loads(request.POST['vents'])
+
+                sale = Sale()
+                sale.date_joined = vents['date_joined']
+                sale.cli_id = vents['cli']
+                sale.subtotal = int(vents['subtotal'])
+                sale.iva = vents['iva']
+                sale.total = int(vents['total'])
+                sale.save()
+
+
+                for i in vents['products']:
+                    det = DetSale()
+                    det.sale_id = sale.id
+                    det.prod_id = i['id']
+                    det.cant = int(i['cant'])
+                    det.price = int(i['price_sale'])
+                    det.subtotal = int(i['subtotal'])
+                    det.save()
 
             else:
                 data['error'] = 'No ha ingresado a ninguna opción'

@@ -13,7 +13,7 @@ var vents = {
         var iva = $('input[name="iva"]').val();
         $.each(this.items.products, function (pos, dict) {
             dict.pos = pos;
-            dict.subtotal = dict.cant * dict.price_cost;
+            dict.subtotal = dict.cant * dict.price_sale;
             subtotal+= dict.subtotal;
         });
         this.items.subtotal = subtotal;
@@ -37,14 +37,12 @@ var vents = {
             responsive: true,
             autoWidth: false,
             destroy: true,
-            deferRender: true,
             data: this.items.products,
             columns: [
                 {"data": "id"},
                 {"data": "name"},
                 {"data": "cate.name"},
-                {"data": "price_cost"},
-                //{"data": "price_sale"},
+                {"data": "price_sale"},
                 {"data": "cant"},
                 {"data": "subtotal"},
             ],
@@ -63,7 +61,7 @@ var vents = {
                     class: 'text-center',
                     orderable: false,
                     render: function (data, type, row) {
-                        return '$'+parseFloat(data);
+                        return '$'+(data);
                     }
                 },
                 {
@@ -79,7 +77,7 @@ var vents = {
                     class: 'text-center',
                     orderable: false,
                     render: function (data, type, row) {
-                        return '$'+parseFloat(data);
+                        return '$'+(data);
                     }
                 },
             ],
@@ -122,7 +120,7 @@ $(function () {
     }).on('change', function () {
         vents.calculate_invoice();
     })
-        .val(0.19);
+        .val(0.00);
 
     //busqueda de productos
 
@@ -177,7 +175,6 @@ $(function () {
                 vents.list();
             });
         })
-
         .on('change ', 'input[name="cant"]', function () {
             console.clear();
             var cant = parseInt($(this).val());
@@ -187,4 +184,25 @@ $(function () {
             vents.calculate_invoice();
             $('td:eq(5)', tblProducts.row(tr.row).node()).html('$' + vents.items.products[tr.row].subtotal);
         });
+
+    // submit
+
+    $('form').on('submit', function (e) {
+        e.preventDefault();
+
+        vents.items.date_joined = $('input[name="date_joined"]').val();
+        vents.items.cli = $('select[name="cli"]').val();
+        //
+         var parameters = new FormData();
+
+
+        parameters.append('action', $('input[name="action"]').val());
+        parameters.append('vents', JSON.stringify(vents.items));
+        console.log(vents.items);
+        //console.log(parametros);
+        submit_with_ajax2(window.location.pathname, 'Notificación', '¿Estás seguro de ingresar el siguiente registro ?', parameters, function () {
+            location.href = '/erp/dashboard/';
+        });
+    });
+
 });
