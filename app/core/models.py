@@ -97,7 +97,7 @@ class Sale(models.Model):
 
 
 class DetSale(models.Model):
-    prod = models.ForeignKey(Product, null=True, blank=True,  on_delete=models.CASCADE)
+    prod = models.ForeignKey(Product, on_delete=models.CASCADE)
     sale = models.ForeignKey(Sale, on_delete=models.CASCADE)
     price = models.IntegerField(default=0, )
     cant = models.IntegerField(default=0)

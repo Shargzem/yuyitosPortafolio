@@ -47,7 +47,7 @@
                                         <input type="text" class="form-control" name="search"
                                                placeholder="Ingrese una descripción de producto" autocomplete="off">
                                         <span class="input-group-append">
-                                        <button type="button" class="btn btn-danger btn-flat"><i
+                                        <button type="button" class="btn btn-danger btn-flat btnClrearSearch"><i
                                                 class="fas fa-times"></i></button>
                                       </span>
                                     </div>
@@ -120,5 +120,13 @@
             </div>
         </div>
     </form>
+
+    <script>
+
+
+    vents.items.products = {{ det|safe }};
+    vents.list();
+    console.log(vents)
+    </script>
 
 {% endblock %}

@@ -185,15 +185,24 @@ $(function () {
             $('td:eq(5)', tblProducts.row(tr.row).node()).html('$' + vents.items.products[tr.row].subtotal);
         });
 
+    $('.btnClrearSearch').on('click', function () {
+        $('input[name=search]').val('').focus();
+    });
+
     // submit
 
     $('form').on('submit', function (e) {
         e.preventDefault();
 
+        if(vents.items.products.length === 0){
+            mensaje_error('Debe ingresar al menos un producto para procesar la venta');
+            return false;
+        }
+
         vents.items.date_joined = $('input[name="date_joined"]').val();
         vents.items.cli = $('select[name="cli"]').val();
         //
-         var parameters = new FormData();
+        var parameters = new FormData();
 
 
         parameters.append('action', $('input[name="action"]').val());
@@ -201,8 +210,11 @@ $(function () {
         console.log(vents.items);
         //console.log(parametros);
         submit_with_ajax2(window.location.pathname, 'Notificación', '¿Estás seguro de ingresar el siguiente registro ?', parameters, function () {
-            location.href = '/erp/dashboard/';
+            location.href = '/erp/sale/list/';
         });
+
     });
+
+    vents.list();
 
 });
