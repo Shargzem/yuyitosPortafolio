@@ -26,11 +26,27 @@ $(function () {
         ],
         columnDefs: [
             {
-                targets: [-2, -3, -4],
+                targets: [-4],
+                class: 'text-center',
+                orderable: false,
+                render: function (data, type, row) {
+                    return '$' + (data);
+                }
+            },
+            {
+                targets: [ -3],
                 class: 'text-center',
                 orderable: false,
                 render: function (data, type, row) {
                     return '$' + parseFloat(data).toFixed(2);
+                }
+            },
+            {
+                targets: [-2],
+                class: 'text-center',
+                orderable: false,
+                render: function (data, type, row) {
+                    return '$' + (data);
                 }
             },
             {
