@@ -45,7 +45,10 @@ INSTALLED_APPS = [
     'login',
     #Librerias
     'widget_tweaks',
+
 ]
+
+ROOT_URLCONF = 'config.urls'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -122,6 +125,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles/')
+
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
@@ -137,3 +142,4 @@ LOGIN_REDIRECT_URL = '/erp/dashboard'
 LOGOUT_REDIRECT_URL = '/login/'
 
 LOGIN_URL = '/login/'
+

@@ -162,6 +162,8 @@ $(function () {
         alert_action('Notificación', '¿Estas seguro de eliminar todos los items de tu detalle?', function () {
             vents.items.products = [];
             vents.list();
+        }, function () {
+
         });
 
 
@@ -173,6 +175,8 @@ $(function () {
             alert_action('Notificación', '¿Estas seguro de eliminar el producto de tu detalle?', function () {
                 vents.items.products.splice(tr.row, 1);
                 vents.list();
+            }, function () {
+
             });
         })
         .on('change ', 'input[name="cant"]', function () {
@@ -201,20 +205,23 @@ $(function () {
 
         vents.items.date_joined = $('input[name="date_joined"]').val();
         vents.items.cli = $('select[name="cli"]').val();
-        //
         var parameters = new FormData();
-
-
         parameters.append('action', $('input[name="action"]').val());
         parameters.append('vents', JSON.stringify(vents.items));
-        console.log(vents.items);
+        //console.log(vents.items);
         //console.log(parametros);
-        submit_with_ajax2(window.location.pathname, 'Notificación', '¿Estás seguro de ingresar el siguiente registro ?', parameters, function () {
-            location.href = '/erp/sale/list/';
+        submit_with_ajax2(window.location.pathname, 'Notificación', '¿Estás seguro de ingresar el siguiente registro ?', parameters, function (response) {
+            alert_action('Notificación', '¿Deasea imprimir la boleta de venta?', function () {
+                window.open('/erp/sale/invoice/pdf/'+ response.id +'/', '_blank');
+                location.href = '/erp/sale/list/';
+            }, function () {
+                location.href = '/erp/sale/list/';
+            });
+
         });
 
     });
 
-    //vents.list();
+    vents.list();
 
 });

@@ -41,7 +41,7 @@ function submit_with_ajax(url, title, content, parameters, callback) {
                         dataType: 'json'
                     }).done(function (data) {
                         if (!data.hasOwnProperty('error')) {
-                            callback();
+                            callback(data);
                             return false;
                         }
                         mensaje_error(data.error);
@@ -91,7 +91,7 @@ function submit_with_ajax2(url, title, content, parameters, callback) {
                     }).done(function (data) {
                         console.log(data);
                         if (!data.hasOwnProperty('error')) {
-                            callback();
+                            callback(data);
                             return false;
                         }
                         mensaje_error(data.error);
@@ -114,7 +114,7 @@ function submit_with_ajax2(url, title, content, parameters, callback) {
     })
 }
 
-function alert_action(title, content, callback) {
+function alert_action(title, content, callback, cancel) {
     $.confirm({
         theme: 'material',
         title: title,
@@ -137,7 +137,7 @@ function alert_action(title, content, callback) {
                 text: "No",
                 btnClass: 'btn-red',
                 action: function () {
-
+                    cancel();
                 }
             },
         }

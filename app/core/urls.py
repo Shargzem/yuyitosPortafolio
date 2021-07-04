@@ -4,7 +4,7 @@ from core.templates.dashboard.views import DashboardView
 from core.views.category.views import *
 from core.views.client.views import ClientView
 from core.views.product.views import *
-from core.views.sale.views import SaleCreateView, SaleListView, SaleDeleteView, SaleUpdateView
+from core.views.sale.views import SaleCreateView, SaleListView, SaleDeleteView, SaleUpdateView, SaleInvoicePdfView
 from core.views.supplier.views import SupplierListView, SupplierCreateView, SupplierUpdateView, SupplierDeleteView
 from core.views.tests.views import TestView
 
@@ -45,5 +45,6 @@ urlpatterns = [
     path('sale/add/', SaleCreateView.as_view(), name='sale_create'),
     path('sale/delete/<int:pk>/', SaleDeleteView.as_view(), name='sale_delete'),
     path('sale/update/<int:pk>/', SaleUpdateView.as_view(), name='sale_update'),
+    path('sale/invoice/pdf/<int:pk>/', SaleInvoicePdfView.as_view(), name='sale_invoice_pdf'),
 
 ]
