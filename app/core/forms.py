@@ -201,12 +201,15 @@ class CreditedForm(ModelForm):
             'payment': TextInput(attrs={
                 'class': 'form-control',
             }),
-            # 'state': CheckboxInput(attrs={
-            #     'checkbox': 'checked',
-            #
-            # }),
+            'state': Select(
+                choices=[
+                    ('', 'Unknown'),
+                    (True, 'Yes'),
+                    (False, 'No'),
+                ]
+            ),
 
-            'cli.names': Select()
+
         }
 
     def save(self, commit=True):

@@ -26,6 +26,14 @@ $(function () {
         ],
         columnDefs: [
             {
+                targets: [-5],
+                class: 'text-center',
+                orderable: false,
+                render: function (data, type, row) {
+                    return '<span class="badge badge-success">'+data+'</span>'
+                }
+            },
+            {
                 targets: [-4],
                 class: 'text-center',
                 orderable: false,

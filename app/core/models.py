@@ -174,6 +174,7 @@ class Supplier(models.Model):
     rs = models.CharField(max_length=150, verbose_name='Razon Social')
     turn = models.CharField(max_length=150, verbose_name='Giro')
     phone = models.IntegerField( verbose_name='Telefono')
+    email = models.CharField(max_length=150, verbose_name='Correo')
     date = models.DateField(default=datetime.now)
 
     def __str__(self):
@@ -193,7 +194,7 @@ class Lote(models.Model):
     date_ini = models.DateField(default=datetime.now)
     date_venc = models.DateField(default=datetime.now)
     order = models.ForeignKey(Order, on_delete=models.CASCADE, verbose_name='Orden')
-    supp = models.ForeignKey(Supplier, on_delete=models.CASCADE, verbose_name='Proveedor')
+    prod = models.ForeignKey(Product, on_delete=models.CASCADE, verbose_name='Producto')
 
 
     def __str__(self):

@@ -18,6 +18,7 @@ $(function () {
             {"data": "rs"},
             {"data": "turn"},
             {"data": "phone"},
+            {"data": "email"},
             {"data": "date"},
             {"data": "desc"},
         ],

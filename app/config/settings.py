@@ -144,3 +144,13 @@ LOGOUT_REDIRECT_URL = '/login/'
 
 LOGIN_URL = '/login/'
 
+
+#email
+
+EMAIL_HOST = 'smtp.gmail.com'
+
+EMAIL_PORT = 587
+
+EMAIL_HOST_USER = 'proveedor.pruebayuyitos@gmail.com'
+
+EMAIL_HOST_PASSWORD = 'Yuyitos.123'
