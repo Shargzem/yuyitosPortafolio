@@ -22,5 +22,6 @@ from core.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('login/', include('login.urls')),
-    path('erp/', include('core.urls'))
+    path('erp/', include('core.urls')),
+    path('reports/', include('reports.urls')) #sin el erp
 ]

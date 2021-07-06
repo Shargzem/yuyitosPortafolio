@@ -27,6 +27,7 @@ class Product(models.Model):
     name = models.CharField(max_length=150, verbose_name='Nombre', unique=True)
     cate = models.ForeignKey(Category, on_delete=models.CASCADE, verbose_name='Categoría')
     #image = models.ImageField(upload_to='product/%Y/%m/%d', null=True, blank=True)
+    stock = models.IntegerField(default=0, verbose_name='Stock')
     price_cost = models.IntegerField(default=0, verbose_name='Precio Costo')
     price_sale = models.IntegerField(default=0, verbose_name='precio Venta')
 
@@ -57,6 +58,9 @@ class Client(models.Model):
 
     def __str__(self):
         return self.names
+
+    def get_full_name(self):
+        return '{} {} / {}'.format(self.names, self.surnames, self.rut)
 
     def toJSON(self):
         item = model_to_dict(self)
@@ -118,19 +122,21 @@ class DetSale(models.Model):
         ordering = ['id']
 
 class Credited(models.Model):
-    date_ini = models.DateField(verbose_name='Fecha Inicio')
-    date_end = models.DateField(verbose_name='Fecha Termino')
+    date_joined = models.DateField(default=datetime.now)
+    date_end = models.DateField(default=datetime.now, verbose_name='Fecha Termino')
     total = models.IntegerField(default=0, verbose_name='Total')
     payment = models.IntegerField(default=0, verbose_name='Abono')
     state = models.BooleanField(default=True)
-    #cli = models.ForeignKey(Client, on_delete=models.CASCADE, verbose_name='Categoría')
+    cli = models.ForeignKey(Client, on_delete=models.CASCADE, verbose_name='Cliente')
 
     def __str__(self):
-        return self.cli.name
+        return self.cli.names
 
     def toJSON(self):
         item = model_to_dict(self)
         item['cli'] = self.cli.toJSON()
+        item['date_joined'] = self.date_joined.strftime('%Y-%m-%d')
+        item['date_end'] = self.date_end.strftime('%Y-%m-%d')
         return item
 
     class Meta:

@@ -3,6 +3,7 @@ from django.urls import path
 from core.templates.dashboard.views import DashboardView
 from core.views.category.views import *
 from core.views.client.views import ClientView
+from core.views.credited.views import  CreditedListView
 from core.views.product.views import *
 from core.views.sale.views import SaleCreateView, SaleListView, SaleDeleteView, SaleUpdateView, SaleInvoicePdfView
 from core.views.supplier.views import SupplierListView, SupplierCreateView, SupplierUpdateView, SupplierDeleteView
@@ -28,6 +29,9 @@ urlpatterns = [
 
     # client
     path('client/', ClientView.as_view(), name='client'),
+    # credited
+    path('credited/list/', CreditedListView.as_view(), name='credited_list'),
+
 
     # test
     path('test/', TestView.as_view(), name='test'),

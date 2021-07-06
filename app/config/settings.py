@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     #Apps
     'core',
     'login',
+    'reports',
     #Librerias
     'widget_tweaks',
 

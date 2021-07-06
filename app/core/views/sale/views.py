@@ -10,8 +10,8 @@ from django.views.generic import CreateView, ListView, DeleteView, UpdateView, V
 from xhtml2pdf import pisa
 
 from config import settings
-from core.forms import SaleForm
-from core.models import Sale, Product, DetSale
+from core.forms import SaleForm, ClientForm
+from core.models import Sale, Product, DetSale, Client
 
 
 class SaleListView(ListView):
@@ -98,6 +98,18 @@ class SaleCreateView(CreateView):
                         det.subtotal = int(i['subtotal'])
                         det.save()
                     data = {'id': sale.id}
+            elif action == 'create_client':
+                with transaction.atomic():
+                    frmClient = ClientForm(request.POST)
+                    data = frmClient.save()
+            elif action == 'search_clients':
+                data = []
+                prods = Client.objects.filter(names__icontains=request.POST['term'])[0:10]
+                for i in prods:
+                    item = i.toJSON()
+                    item['text'] = i.get_full_name()
+                    data.append(item)
+
 
             else:
                 data['error'] = 'No ha ingresado a ninguna opción'
@@ -112,6 +124,7 @@ class SaleCreateView(CreateView):
         context['list_url'] = self.success_url
         context['action'] = 'add'
         context['det'] = []
+        context['frmClient'] = ClientForm()
         return context
 
 class SaleUpdateView(UpdateView):
@@ -158,7 +171,17 @@ class SaleUpdateView(UpdateView):
                         det.subtotal = int(i['subtotal'])
                         det.save()
                     data = {'id': sale.id}
-
+            elif action == 'search_clients':
+                data = []
+                prods = Client.objects.filter(names__icontains=request.POST['term'])[0:10]
+                for i in prods:
+                    item = i.toJSON()
+                    item['text'] = i.get_full_name()
+                    data.append(item)
+            elif action == 'create_client':
+                with transaction.atomic():
+                    frmClient = ClientForm(request.POST)
+                    data = frmClient.save()
             else:
                 data['error'] = 'No ha ingresado a ninguna opción'
         except Exception as e:
@@ -183,6 +206,7 @@ class SaleUpdateView(UpdateView):
         context['list_url'] = self.success_url
         context['action'] = 'edit'
         context['det'] = json.dumps(self.get_details_product())
+        context['frmClient'] = ClientForm()
         return context
 
 class SaleDeleteView(DeleteView):

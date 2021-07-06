@@ -122,6 +122,57 @@ $(function () {
     })
         .val(0.00);
 
+    // search clients
+
+    $('select[name="cli"]').select2({
+        theme: "bootstrap4",
+        language: 'es',
+        allowClear: true,
+        ajax: {
+            delay: 250,
+            type: 'POST',
+            url: window.location.pathname,
+            data: function (params) {
+                var queryParameters = {
+                    term: params.term,
+                    action: 'search_clients'
+                };
+                return queryParameters;
+            },
+            processResults: function (data) {
+                return {
+                    results: data
+                };
+            },
+        },
+        placeholder: 'Ingrese un cliente',
+        minimumInputLength: 1,
+    });
+
+    $('.btnAddClient').on('click', function () {
+        $('#myModalClient').modal('show');
+    });
+
+    $('#myModalClient').on('hidden.bs.modal', function (e) {
+        $('#frmClient').trigger('reset');
+    });
+
+
+
+    $('#frmClient').on('submit', function (e) {
+        e.preventDefault();
+
+        var parameters = new FormData(this);
+        parameters.append('action', 'create_client');
+        //console.log(vents.items);
+        //console.log(parametros);
+        submit_with_ajax2(window.location.pathname, 'Notificación', '¿Estás seguro de ingresar el cliente ?', parameters, function (response) {
+            $('#myModalClient').modal('hide');
+        });
+
+    });
+
+
     //busqueda de productos
 
     $('input[name="search"]').autocomplete({
@@ -195,7 +246,7 @@ $(function () {
 
     // submit
 
-    $('form').on('submit', function (e) {
+    $('#frmSale').on('submit', function (e) {
         e.preventDefault();
 
         if(vents.items.products.length === 0){

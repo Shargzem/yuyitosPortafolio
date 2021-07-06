@@ -2,7 +2,7 @@ from datetime import datetime
 from django.forms import *
 
 
-from core.models import Category, Product, Client, Sale, Supplier
+from core.models import Category, Product, Client, Sale, Supplier, Credited
 
 
 class CategoryForm(ModelForm):
@@ -59,6 +59,12 @@ class ProductForm(ModelForm):
             'name': TextInput(
                 attrs={
                     'placeholder': 'Ingrese nombre del Producto',
+                }
+            ),
+            'cat': Select(
+                attrs={
+                    'class': 'select2',
+                    'style': 'width: 100%'
                 }
             ),
         }
@@ -155,18 +161,79 @@ class ClientForm(ModelForm):
     #         # self.add_error('name', 'Le faltan caracteres')
     #     return cleaned
 
+class CreditedForm(ModelForm):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.fields['total'].widget.attrs['autofocus'] = True
+
+    class Meta:
+        model = Credited
+        fields = '__all__'
+        widgets = {
+            'date_joined': DateInput(
+                format='%Y-%m-%d',
+                attrs={
+                    'value': datetime.now().strftime('%Y-%m-%d'),
+                    'autocomplete': 'off',
+                    'class': 'form-control datetimepicker-input',
+                    'id': 'date_joined',
+                    'data-target': '#date_joined',
+                    'data-toggle': 'datetimepicker'
+                }
+            ),
+            'date_end': DateInput(
+                format='%Y-%m-%d',
+                attrs={
+                    'value': datetime.now().strftime('%Y-%m-%d'),
+                    'autocomplete': 'off',
+                    'class': 'form-control datetimepicker-input',
+                    'id': 'date_end',
+                    'data-target': '#date_end',
+                    'data-toggle': 'datetimepicker'
+                }
+
+            ),
+            'total': TextInput(attrs={
+                # 'disabled': True ,
+                # 'readonly': True,
+                'class': 'form-control',
+            }),
+            'payment': TextInput(attrs={
+                'class': 'form-control',
+            }),
+            # 'state': CheckboxInput(attrs={
+            #     'checkbox': 'checked',
+            #
+            # }),
+
+            'cli.names': Select()
+        }
+
+    def save(self, commit=True):
+        data = {}
+        form = super()
+        try:
+            if form.is_valid():
+                form.save()
+            else:
+                data['error'] = form.errors
+        except Exception as e:
+            data['error'] = str(e)
+        return data
+
 
 class SaleForm(ModelForm):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
+        self.fields['cli'].queryset = Client.objects.none()
 
     class Meta:
         model = Sale
         fields = '__all__'
         widgets = {
             'cli': Select(attrs={
-                'class': 'form-control select2',
-                'style': 'width: 100%'
+                'class': 'custom-select select2',
+                # 'style': 'width: 100%'
             }),
             'date_joined': DateInput(
                 format='%Y-%m-%d',

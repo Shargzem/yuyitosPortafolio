@@ -60,13 +60,29 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="{% url 'erp:test' %}" class="nav-link">
-                        <i class="nav-icon fas fa-calendar-check"></i>
+                    <a href="{% url 'erp:sale_list' %}" class="nav-link">
+                        <i class="fas fa-shopping-basket"></i>
                         <p>
-                            Tests
+                            Detalle Ventas
                         </p>
                     </a>
                 </li>
+                <li class="nav-item">
+                    <a href="{% url 'sale_report' %}" class="nav-link">
+                        <i class="fas fa-chart-bar"></i>
+                        <p>
+                            Reporte de Ventas
+                        </p>
+                    </a>
+                </li>
+{#                <li class="nav-item">#}
+{#                    <a href="{% url 'erp:test' %}" class="nav-link">#}
+{#                        <i class="nav-icon fas fa-calendar-check"></i>#}
+{#                        <p>#}
+{#                            Tests#}
+{#                        </p>#}
+{#                    </a>#}
+{#                </li>#}
             </ul>
         </nav>
     </div>

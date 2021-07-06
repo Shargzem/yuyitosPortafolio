@@ -30,7 +30,7 @@ $(function () {
                 class: 'text-center',
                 orderable: false,
                 render: function (data, type, row) {
-                    return '$' + (data);
+                    return '<span class="badge badge-success">'+data+'</span>'
                 }
             },
             {
@@ -46,7 +46,7 @@ $(function () {
                 class: 'text-center',
                 orderable: false,
                 render: function (data, type, row) {
-                    return '$' + (data);
+                    return '<span class="badge badge-success">'+data+'</span>'
                 }
             },
             {
